@@ -1,0 +1,106 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: "苹方"
+}
+.dakuan1{
+	width: 7.5rem;
+	height: 0.88rem;
+	background: #4d88fe;
+}
+.dakuan2{
+	width: 7.5rem;
+	height: 12.09rem;
+	background: #4d88fe;
+}
+.dakuan1 .zuo{
+	width: 0.88rem;
+	height: 0.88rem;
+	background-image: url('../img/zuo.fanhui@2x.png');
+	background-size: 0.3rem 0.48rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+.dakuan1 .zhongxin{
+	width: 1.8rem;
+	height: 0.5rem;
+	font-size: 0.36rem;
+	color: white;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 2rem;
+}
+.dakuan2 .mingchen{
+	width: 4.2rem;
+	height: 2.48rem;
+	margin-left: 0.48rem;
+	background-image: url('../img/gerenmingchen.png');
+	background-size: 4rem 1.88rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dakuan2 .neirong{
+	width: 7rem;
+	height: 9.3rem;
+	background: white;
+	margin-left: 0.25rem;
+}
+.dakuan2 .neirong .kongbai{
+	width: 7rem;
+	height: 0.24rem;
+}
+.dakuan2 .neirong .xiaokuai{
+	width: 7rem;
+	height: 0.88rem;
+}
+.dakuan2 .neirong .xiaokuai1{
+	background-image: url('../img/qianbao.png');
+	background-size: 6rem 0.4rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dakuan2 .neirong .xiaokuai2{
+	background-image: url('../img/shoucang.png');
+	background-size: 6rem 0.4rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dakuan2 .neirong .xiaokuai3{
+	background-image: url('../img/xiaoxi.png');
+	background-size: 6rem 0.4rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dakuan2 .neirong .xiaokuai4{
+	background-image: url('../img/kefu.png');
+	background-size: 6rem 0.4rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dakuan2 .neirong .xiaokuai5{
+	background-image: url('../img/gexinghua.png');
+	background-size: 6rem 0.4rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dakuan2 .neirong .xiaokuai6{
+	background-image: url('../img/shezhi.png');
+	background-size: 6rem 0.4rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dakuan2 .neirong .zhanghu{
+	width: 7rem;
+	height: 3rem;
+	background-image: url('../img/zhanghu.png');
+	background-size: 3.22rem 1.15rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}

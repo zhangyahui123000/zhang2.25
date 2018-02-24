@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<link rel="stylesheet" href="css/shouji.css">
+    <link rel="stylesheet" href="css/swiper.css">
+	<title>音乐首页</title>
+	<script src="JS/rem.js"></script>
+    <script src="JS/swiper-jquery.js"></script>
+    <script src="JS/swiper.js"></script>
+</head>
+<body>
+<div class="shouji">
+<!-- 导航开始 -->
+	<div class="daohang">
+		<div class="neikuan">
+			<div class="geren">
+				<div class="daohang1"></div>
+			</div>
+			<div class="ting">
+				<div class="daohang2"></div>
+				<div class="xuanzhong"></div>
+			</div>
+			<div class="shequ">
+				<div class="daohang3"></div>
+			</div>
+			<div class="sousuo">
+				<div class="daohang4"></div>
+			</div>
+		</div>
+	</div>
+<!-- 导航结束 -->
+<!-- banner开始 -->
+   <!--  <div class="B"> -->
+        <!-- <div class="banner">
+    	    <div class="neirong">
+    		    <img src="img/banner.jpg" alt="">
+    	    </div>
+        </div> -->
+      <!--   <div class="lunbodian">
+    	    <img src="img/lunbodian@2x.png" alt="">
+        </div>
+    </div> -->
+
+
+    <div class="swiper-container B banner neirong">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/banner2.jpg" alt=""></div>
+        </div>
+    <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    
+    <!-- 如果需要导航按钮 -->
+<!--     <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
+    
+    <!-- 如果需要滚动条 -->
+   <!--  <div class="swiper-scrollbar"></div> -->
+    </div>
+    <div class="lunbodian">
+            <img src="img/lunbodian@2x.png" alt="">
+    </div>
+
+
+<!-- banner结束 -->
+<!-- 卡片开始 -->
+    <div class="ka">
+        <div class="ka1">
+        	<img src="img/jinrituijian@2x.png" alt="">
+            <div class="wenzi">今日推荐</div>
+        </div>
+        <div class="ka2">
+        	<img src="img/gequfenlei@2x.png" alt="">
+            <div class="wenzi">歌曲分类</div>
+        </div>
+        <div class="ka3">
+        	<img src="img/gequpaihang@2x.png" alt="">
+            <div class="wenzi">歌曲排行</div>
+        </div>
+        <div class="ka4">
+            <a href="2.liebiao1.html">
+        	    <img src="img/bendixiazai@2x.png" alt="">
+                <div class="wenzi">本地下载</div>
+            </a>
+        </div>
+    </div>
+<!-- 卡片结束 -->
+<!-- 歌单推荐开始 -->
+    <div class="tuijian"> 
+        <div class="titel">歌单推荐</div>
+        <div class="littletitel">Playlist recommendedo</div>
+        <div class="liebiao">
+            <div class="left">
+                <img src="img/tuijian1.jpg" alt="">
+            </div>
+            <div class="right">
+                <div class="geming">01  别碰我的人-陈小春</div>
+                <div class="jieshi">我的人我做主，我的世界我精彩</div>
+                <div class="geming2">02  我们的故事-米兰</div>
+                <div class="geming3">03  那悲伤看透时</div>
+            </div>
+            <div class="xiushi"></div>
+        </div>
+    </div>
+    <div class="tuijian2">
+        <div class="liebiao">
+            <div class="left">
+                <img src="img/tuijian1.jpg" alt="">
+            </div>
+            <div class="right">
+                <div class="geming">01  别碰我的人-陈小春</div>
+                <div class="jieshi">我的人我做主，我的世界我精彩</div>
+                <div class="geming2">02  我们的故事-米兰</div>
+                <div class="geming3">03  那悲伤看透时</div>
+            </div>
+            <div class="xiushi"></div>
+        </div>
+    </div>
+    <div class="tuijian3">
+        <div class="liebiao">
+            <div class="left">
+                <img src="img/tuijian1.jpg" alt="">
+            </div>
+            <div class="right">
+                <div class="geming">01  别碰我的人-陈小春</div>
+                <div class="jieshi">我的人我做主，我的世界我精彩</div>
+                <div class="geming2">02  我们的故事-米兰</div>
+                <div class="geming3">03  那悲伤看透时</div>
+            </div>
+            <div class="xiushi"></div>
+        </div>
+    </div>
+<!-- 歌单推荐结束 -->
+<!-- 底部开始 -->
+    <div class="dibu">
+        <img src="img/dibu1.png" alt="">
+        <div class="wenzi">
+            <div class="geming">Until you</div>
+            <div class="geshou">Shayne Ward</div>
+        </div>
+        <div class="anjian">
+            <div class="an1">
+                <img src="img/dibu2.png" alt="">
+            </div>
+            <div class="an2">
+                <img src="img/dibu3.png" alt="">
+            </div>
+            <div class="an3">
+                <img src="img/dibu4.png" alt="">
+            </div>
+        </div>
+    </div>
+<!-- 底部结束 -->
+</div>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    // direction: 'vertical',
+    loop: true,
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // // 如果需要前进后退按钮
+    // navigation: {
+    //   nextEl: '.swiper-button-next',
+    //   prevEl: '.swiper-button-prev',
+    // },
+    
+    // // 如果需要滚动条
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  })        
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: "苹方"
+	
+}
+.urse {
+	/*background: linear-gradient(, blue, white); */
+	padding-bottom: 0.7rem;
+}
+span,p {
+	font-size: 0.2rem;
+}
+.top {
+	width: 100%;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	text-align: center;
+	position: relative;
+	background: #4b8cfe
+}
+.top h1 {
+	font-size: 0.36rem;
+	color: #fff;
+}
+.top .left {
+	float: left;
+	width: 0.4rem;
+	margin-top: 0.35rem;
+	position: absolute;
+	top: 0;
+	transform: translateY(-50%);
+	left: 0.15rem;
+}
+.top .left img{
+	width: 0.3rem;
+	height: 0.5rem;
+}
+.content{
+	width: 100%;
+	height: 2.35rem;
+	background:#4b8cfe;
+	padding-left:0.9rem; 
+	padding-top: 0.5rem;
+	box-sizing:border-box;
+}
+.content_left {
+	float: left;
+}
+.content_left img {
+	width: 1.6rem;
+}
+.content_right {
+	margin-left: 0.2rem;
+	float: left;
+	line-height: 0.4rem;
+	padding-top: 0.4rem;
+	color: #fff;
+}
+.content_right h3 {
+	font-size: 0.26rem;
+}
+.content_right p {
+	font-size: 0.2rem;
+}
+.banner {
+	width: 100%;
+	height: 100%;
+	border: 0.01rem solid #eee;
+	border-radius: 0.15rem;
+	background: #fff;
+}
+.nav {
+	width: 100%;
+	height: 100%;
+	box-sizing:border-box;
+	height: 0.88rem;
+	line-height: 0.28rem;
+	padding: 0 0.35rem;
+	border-bottom: 0.01rem solid #eee;
+	display: flex;
+	justify-content: space-between;
+}
+.nav_right {
+	padding-right: 0.8rem;
+}
+.banner ul {
+	width: 100%;
+	margin-left: 1.6rem;
+	padding-bottom: 0.6rem;
+}
+.banner ul li {
+	border-bottom: 0.02rem solid #ccc;
+	margin-right: 2.3rem;
+	height: 1.26rem;
+    line-height: 0.38rem;
+    box-sizing:border-box;
+    position: relative;
+}
+.banner ul li img {
+	width: 0.6rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.4rem;
+    left: -1rem
+}
+.details {
+	padding: 0.28rem 0;
+	box-sizing:border-box;
+	display: flex;
+    justify-content: space-between;
+}
+
+.details_left p:nth-child(1){
+	font-weight: bold;
+}
+.details_left p:nth-child(2){
+	font-size: 0.15rem;
+}
+.details_right {
+
+}
+.details_right em {
+	display: inline-block;
+	margin: 0 -0.6rem 0 0;
+	padding: 0;
+	width: 0.1rem;
+	height: 0.1rem;
+	border:1px solid #ccc;
+	border-radius: 50%;
+	background-color: #ccc;
+}
